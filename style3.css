@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color:#000000;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+
+    display:flex;
+    justify-content:center;
+    min-height:100vh;
+}
+.contenedor{
+    width:90%;
+    max-width:900px;
+    padding:40px 20px;
+}
+.Titulo h1{
+    text-align:center;
+
+    font-family:'Rye', cursive;
+    font-size:3rem;
+
+    color:#ff4fd8;
+
+    text-shadow:
+        -1px -1px 0 #ff9cf0,
+        1px 1px 0 #a00070;
+
+    transform: scaleX(0.85) scaleY(1.5);
+
+    margin-bottom:50px;
+}
+.Bloque1 h1{
+    font-family: Times New Roman;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    letter-spacing: normal;
+    orphans: 2; text-indent:
+    0px; text-transform: none;
+    white-space: normal;
+    widows: 2;
+    word-spacing: 0px;
+    -webkit-text-stroke-width: 0px;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    color: #FF00FF;
+}
+.Bloque1 p{
+    font-family: Times New Roman;
+    font-size: medium; font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-weight: 400;
+    letter-spacing: normal;
+    orphans: 2;
+    text-align: start;
+    text-indent: 0px;
+    text-transform: none;
+    white-space: normal;
+    widows: 2;
+    word-spacing: 0px;
+    -webkit-text-stroke-width: 0px;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    color: rgb(255, 255, 255);
+    text-align:left;
+}
+.Bloque1 {
+  display: flex;
+  flex-direction: column;
+  min-height: 2200px;
+  height:100%
+}
+.bottom-text {
+  margin-top: auto;
+}
+.quitter {
+    display:none;
+}
+.bottom-text:hover+.quitter {
+    display: block;
+}
+
+.return p{
+    font-family: Times New Roman;
+    color:#2f6cff;
+    margin-bottom:10px;
+    text-align:center;
+    margin-top:30px;
+}
+.logos{
+    display:flex;
+    justify-content:center;
+    gap:50px;
+    margin-top:40px;
+}
+
+.logos img{
+    width:128px;
+    height:auto;
+}
+
+.copyright{
+    font-family: Times New Roman;
+    font-size: medium;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-weight: 400;
+    letter-spacing: normal;
+    orphans: 2;
+    text-indent: 0px;
+    text-transform: none;
+    white-space: normal;
+    widows: 2;
+    word-spacing: 0px;
+    -webkit-text-stroke-width: 0px;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}

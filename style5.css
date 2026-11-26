@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color:#000;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+
+    display:flex;
+    justify-content:center;
+    min-height:100vh;
+}
+img{
+    display:flex;
+    max-height:400px;
+}
+.Red{
+    max-width:900px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align:center;
+}
+.Enter input{
+    border-color: rgb(245, 206, 206);
+    background-color:rgb(221, 80, 80);
+    color: rgb(245, 206, 206);
+}
+.Enter label{
+    color: rgb(245, 206, 206);
+}
+.Enter button{
+    background-color: rgb(221, 80, 80);
+    border-color:rgb(245, 206, 206);
+    color: rgb(245, 206, 206);
+}
